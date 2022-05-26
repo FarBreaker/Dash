@@ -1,0 +1,30 @@
+{
+  "name": "dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "start": "strapi develop",
+    "develop": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.11",
+    "@strapi/plugin-users-permissions": "4.1.11",
+    "@strapi/strapi": "4.1.11",
+    "better-sqlite3": "^7.5.3",
+    "strapi-plugin-react-editorjs": "^2.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "17257813-e705-40d6-82c1-b3f117b27bb7"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

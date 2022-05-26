@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "display_users",
+  "info": {
+    "singularName": "display-user",
+    "pluralName": "display-users",
+    "displayName": "displayUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mail": {
+      "type": "email",
+      "required": true
+    },
+    "surname": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "profileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "bName": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "ig": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "fb": {
+      "type": "string"
+    }
+  }
+}
